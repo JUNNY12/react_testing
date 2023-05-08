@@ -32,10 +32,8 @@ jobs:
         yarn test
     - name: Start the app 📤
       run: |
-        cd testing
         yarn start &
         npx wait-on --timeout 60000
 #     - name: Run visual tests 👁
-#       run: |
-#         cd testing
+#       run: 
 #         yarn test:visual
