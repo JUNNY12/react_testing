@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Login from './components/Login';
+
 
 function App() {
   const a = 2
@@ -32,6 +34,7 @@ function App() {
         Junny is Good
       </h1>
       <span title='sum'>{a + b}</span>
+      <Login />
     </div>
   );
 }
