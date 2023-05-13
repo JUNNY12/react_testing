@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Login from './components/Login';
+import { Greeting } from './components/Greeting';
+import { Currency } from './components/Currency';
 
 
 function App() {
@@ -29,6 +31,12 @@ function App() {
         <li>Hello</li>
         <li>Hello</li>
       </ul>
+
+      <h1>
+        <Greeting />
+      </h1>
+
+      <h2><Currency amount={2000} /></h2>
 
       <h1 data-testid = 'mytestid'>
         Junny is Good
